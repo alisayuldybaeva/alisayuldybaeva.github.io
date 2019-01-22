@@ -24,7 +24,7 @@ color: #493654;
 
 .alisay {
 width: 30%;
-padding-top: 3%;
+padding-top: auto;
 background-color: red;
 box-sizing: border-box;
 float: left;
@@ -54,6 +54,7 @@ box-sizing: border-box;
 
 .socialmedia {
     width: 40%;
+    height: 50px;
 background-color: purple;
 box-sizing: border-box;
 float: left;
