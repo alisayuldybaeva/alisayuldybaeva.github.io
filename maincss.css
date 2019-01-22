@@ -34,9 +34,12 @@ text-align: right;
 .menu {
 background-color: blue;
 width: 29%;
+height: 100%;
+padding-top: 7%;
 box-sizing: border-box;
 float: right;
 }
+
 
 .gallery {
 height: 70%;
@@ -50,14 +53,18 @@ box-sizing: border-box;
 }
 
 .socialmedia {
+    width: 40%;
 background-color: purple;
 box-sizing: border-box;
 float: left;
+text-align: right;
 }
 
 .contact {
 background-color: yellow;
+width: 30%;
 box-sizing: border-box;
+text-align: left;
 float: right;
 }
 
