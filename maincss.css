@@ -8,15 +8,7 @@ url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.otf") format("op
 url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.svg#filename") format("svg");
 }
 
-.alisay {
-width: 30%;
-padding: 2%;
-padding-left: 10%;
-background-color: red;
-box-sizing: border-box;
-float: left;
-margin: 10px;
-}
+
 
 H1{
 font-family: 'Neaments', Arial, sans-serif;
@@ -26,38 +18,44 @@ font-style:normal;
 color: #493654;
 }
 
+.topbar {
+    height:20%;
+}
+
+.alisay {
+width: 30%;
+background-color: red;
+box-sizing: border-box;
+float: left;
+}
+
 .menu {
 background-color: blue;
 width: 29%;
-height: 70%;
-padding: 3.5%;
-padding-right: 5%;
 box-sizing: border-box;
 float: right;
-margin: 10px;
 }
 
 .gallery {
-margin: auto 0;
-padding-top: 10%;
-padding-bottom: 10%;
+height: 70%;
 width: 100%;
-min-height: 70%;
 background-color: green;
 box-sizing: border-box;
-vertical-align:middle;
-transform: translateY(40%)
+}
+
+.bottombar {
+    height: 10%;
 }
 
 .socialmedia {
 background-color: purple;
 box-sizing: border-box;
-float: left bottom;
+float: left;
 }
 
 .contact {
 background-color: yellow;
 box-sizing: border-box;
-float: right bottom;
+float: right;
 }
 
