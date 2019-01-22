@@ -1,56 +1,53 @@
 
 
-background: white;
-min-height: 100%;
-
-
-.alisay {
-width: 30%;
-padding: 2%;
-padding-left: 10%;
-background-color: red;
-box-sizing: border-box;
-float: left;
-margin: 10px;
+.topbar{
+height: 20%;
 }
+
+.bottombar{
+height: 10%;
+}
+
+
 
 H1{
 font: bold 30px Helvetica;
 color: #493654;
 }
 
+.alisay {
+    width: 30%;
+    height:100%;
+    background-color: red;
+    box-sizing: border-box;
+    float: left;
+    }
+    
 .menu {
 background-color: blue;
 width: 29%;
-height: 70%;
-padding: 3.5%;
-padding-right: 5%;
+height:100%;
 box-sizing: border-box;
 float: right;
-margin: 10px;
 }
 
 .gallery {
-margin: auto 0;
-padding-top: 10%;
-padding-bottom: 10%;
 width: 100%;
-min-height: 70%;
+height:70%;
 background-color: green;
 box-sizing: border-box;
 vertical-align:middle;
-transform: translateY(40%)
 }
 
 .socialmedia {
 background-color: purple;
 box-sizing: border-box;
-float: left bottom;
+float: left;
 }
 
 .contact {
 background-color: yellow;
 box-sizing: border-box;
-float: right bottom;
+float: right;
 }
 
