@@ -8,8 +8,6 @@ height: 20%;
 height: 10%;
 }
 
-
-
 H1{
 font: bold 30px Helvetica;
 color: #493654;
@@ -18,15 +16,18 @@ color: #493654;
 .alisay {
     width: 30%;
     height:100%;
+    padding: 5% 0 0;
     background-color: red;
     box-sizing: border-box;
     float: left;
+    text-align: right; 
     }
-    
+
 .menu {
 background-color: blue;
 width: 29%;
 height:100%;
+padding: 5% 0 0;
 box-sizing: border-box;
 float: right;
 }
@@ -40,13 +41,16 @@ vertical-align:middle;
 }
 
 .socialmedia {
+width: 20%;
 background-color: purple;
 box-sizing: border-box;
 float: left;
+text-align: right; 
 }
 
 .contact {
 background-color: yellow;
+width: 20%;
 box-sizing: border-box;
 float: right;
 }
