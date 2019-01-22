@@ -13,7 +13,7 @@ url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.svg#filename") f
 H1{
 font-family: 'Neaments', Arial, sans-serif;
 font-weight:normal;
-font-size: 20pt;
+font-size: 33pt;
 font-style:normal;
 color: #493654;
 }
@@ -24,9 +24,11 @@ color: #493654;
 
 .alisay {
 width: 30%;
+padding-top: 3%;
 background-color: red;
 box-sizing: border-box;
 float: left;
+text-align: right;
 }
 
 .menu {
