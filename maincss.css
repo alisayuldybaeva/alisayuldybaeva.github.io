@@ -1,8 +1,12 @@
 
-
-background: white;
-min-height: 100%;
-
+@font-face {
+font-family: "Neaments";
+src: url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.eot");
+src: 
+url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.woff") format("woff"),
+url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.otf") format("opentype"),
+url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.svg#filename") format("svg");
+}
 
 .alisay {
 width: 30%;
@@ -15,7 +19,9 @@ margin: 10px;
 }
 
 H1{
-font: bold 30px Helvetica;
+font-family: 'Neaments', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
 color: #493654;
 }
 
