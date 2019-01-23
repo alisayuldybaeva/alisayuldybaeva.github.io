@@ -1,16 +1,34 @@
 
-
-.topbar{
-height: 20%;
+@font-face {
+font-family: "Neaments";
+src: url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.eot");
+src: 
+url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.woff") format("woff"),
+url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.otf") format("opentype"),
+url("webfontkit-20190122-054101/swistblnk_neaments_free-webfont.svg#filename") format("svg");
 }
 
-.bottombar{
-height: 10%;
-}
+
 
 H1{
-font: bold 30px Helvetica;
+font-family: 'Neaments', Arial, sans-serif;
+font-weight:normal;
+font-size: 33pt;
+font-style:normal;
 color: #493654;
+}
+
+.topbar {
+    height:20%;
+}
+
+.alisay {
+width: 30%;
+padding-top: auto;
+background-color: red;
+box-sizing: border-box;
+float: left;
+text-align: right;
 }
 
 .alisay {
@@ -26,32 +44,38 @@ color: #493654;
 .menu {
 background-color: blue;
 width: 29%;
-height:100%;
-padding: 5% 0 0;
+height: 100%;
+padding-top: 7%;
 box-sizing: border-box;
 float: right;
 }
 
+
 .gallery {
+height: 70%;
 width: 100%;
-height:70%;
 background-color: green;
 box-sizing: border-box;
-vertical-align:middle;
+}
+
+.bottombar {
+    height: 10%;
 }
 
 .socialmedia {
-width: 20%;
+    width: 40%;
+    height: 50px;
 background-color: purple;
 box-sizing: border-box;
 float: left;
-text-align: right; 
+text-align: right;
 }
 
 .contact {
 background-color: yellow;
-width: 20%;
+width: 30%;
 box-sizing: border-box;
+text-align: left;
 float: right;
 }
 
