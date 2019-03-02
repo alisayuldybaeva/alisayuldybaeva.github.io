@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box; 
+   }
+   body {
+     margin: 0;
+   }
+   #main {
+     display: flex;
+     min-height: 70vh;
+     align-items: center;
+   }
+   #main > article {
+     flex: 1;
+   }
+   #main > nav, 
+   #main > aside {
+     flex: 0 0 20vw;
+     background: beige;
+   }
+   #main > nav {
+     order: -1;
+   }
+   header, footer, article {
+     padding: 1em;
+   }
+
+   header{
+    background: yellowgreen;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   }
+
+   .header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+   }
+
+   .titleay{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: stretch;
+    padding-left: 30px;
+   }
+
+.nav-container{
+  position: relative;
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.nav-container:hover .navmenu{
+  display: block;
+}
+
+   button{
+    background-color: #f5f5f0;
+    color: rgb(32, 32, 32);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+   }
+
+   button:hover {
+    background-color: white;
+    color: black;
+   }
+
+
+   ul.navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 120px; 
+    background-color: #f5f5f0;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+
+  }
+
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .active {
+      background-color: #666666;
+      color: white;
+    }
+
+    .slider-holder{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      background: yellowgreen;
+      position: fixed;
+      height: 70px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+
+    a.new-window{
+      padding-left: 18px;
+    }
+
+    a.facebook{
+      background: url(/images/icons/f-ogo_RGB_HEX-58.png) 100% 50% no-repeat;
+    }
+
+    a.insta{
+      background: url(/images/icons/glyph-logo_May2016-150x150.png) 100% 50% no-repeat;
+    }
+
+    a.linkedin{
+      background: url(images/icons/In-Black-54px-R.png) 100% 50% no-repeat;
+    }
