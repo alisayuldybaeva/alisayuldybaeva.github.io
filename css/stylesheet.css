@@ -6,20 +6,21 @@
    }
    #main {
      display: flex;
-     max-height: 75vh;
      align-items: center;
-     margin-top: 15vh;
      background-color: white;
      flex-shrink:1;
      max-width:100%; 
+     min-height: 50vh; 
+     height: auto; 
+     display: block;
    }
   
-   header, footer, article {
+   header, footer {
      padding: 1em;
    }
 
    header{
-    background: rgb(255, 255, 255);
+    background: white;
     height: 87px;
     position: fixed;
     top: 0;

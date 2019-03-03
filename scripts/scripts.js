@@ -23,12 +23,12 @@ $(document).ready(function(){
     autoplayHoverPause:true,
     responsive:{
         0:{
-            items:1
-            
+            items:1,
+            autoplay:false
         },
         600:{
-            items:3
-          
+            items:3,
+            autoplay:false
         },
         1000:{
             items:5
