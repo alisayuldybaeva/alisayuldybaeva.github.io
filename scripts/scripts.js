@@ -16,7 +16,7 @@ $(document).ready(function(){
     lazyLoad: true,
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
     autoplay:true,
     autoWidth:true,
     autoplayTimeout:2500,

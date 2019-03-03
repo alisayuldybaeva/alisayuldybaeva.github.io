@@ -10,7 +10,6 @@
      background-color: white;
      flex-shrink:1;
      max-width:100%; 
-     min-height: 50vh; 
      height: auto; 
      display: block;
    }
@@ -117,6 +116,10 @@
 
     .gallery {
       z-index: 1;
+    }
+
+    .item{
+      
     }
 
     .owl-carousel .owl-wrapper {
