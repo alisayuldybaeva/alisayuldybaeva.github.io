@@ -26,7 +26,7 @@
 
    header{
     background: rgb(255, 255, 255);
-    height: 80px;
+    height: 87px;
     position: fixed;
     top: 0;
     left: 0;
@@ -51,6 +51,7 @@
     height: 100%;
     align-items: stretch;
     padding-left: 30px;
+    margin-bottom: 3px;
     font-family: 'Playfair Display', serif;
     z-index: 900;
    }
@@ -66,6 +67,11 @@
   display: block;
   
 }
+
+ .menu-button{
+    height: 100%;
+    width: 100%;
+ }
 
    button{
     background-color: #ffffff;
