@@ -47,6 +47,7 @@
     height: 100%;
     align-items: stretch;
     padding-left: 30px;
+    padding-top: 5px;
     font-family: 'Playfair Display', serif;
     z-index: 900;
    }
