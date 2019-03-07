@@ -178,6 +178,24 @@
         height: 53px;
        }
     }
+
+    @media only screen and (max-height: 750px)  {
+      header{
+        height: 67px;
+        background-color: green;
+       }
+       button{
+        padding-right: 0px;       
+       }
+       .titleay{
+        padding-top: 0px;
+        padding-left: 0px;
+       }
+       footer {
+        height: 60px;
+        background-color: green;
+       }
+    }
   
 
     
