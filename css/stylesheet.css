@@ -167,18 +167,6 @@
       background: url(images/icons/In-Black-54px-R.png) 100% 50% no-repeat;
     }
 
-    @media only screen and (max-height: 800px)  {
-      header{
-        height: 67px;
-       }
-       .titleay{
-        padding-top: 0px;
-       }
-       footer {
-        height: 53px;
-       }
-    }
-
     @media only screen and (max-width: 500px)  {
       header{
         height: 67px;
@@ -196,6 +184,19 @@
         background-color: green;
        }
     }
+
+    @media only screen and (max-height: 800px)  {
+      header{
+        height: 67px;
+       }
+       .titleay{
+        padding-top: 0px;
+       }
+       footer {
+        height: 53px;
+       }
+    }
+
   
 
     
