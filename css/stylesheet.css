@@ -172,6 +172,9 @@
         height: 67px;
         background-color: green;
        }
+       .nav-container{
+        padding-right: 0px;
+      }
        button{
         padding-right: 0px;       
        }
@@ -180,7 +183,7 @@
         padding-left: 0px;
        }
        footer {
-        height: 60px;
+        height: 65px;
         background-color: green;
        }
     }
