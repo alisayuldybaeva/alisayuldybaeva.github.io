@@ -43,6 +43,10 @@
     font-family: 'Playfair Display', serif;
    }
 
+   a { color: rgb(14, 13, 13);
+       text-decoration: none;
+     }
+
    .titleay{
     display: flex;
     flex-direction: column;
@@ -57,7 +61,7 @@
 .nav-container{
   position: relative;
   display: inline-block;
-  padding-right: 50px;
+  padding-right: 65px;
   z-index: 1000;
 }
 
