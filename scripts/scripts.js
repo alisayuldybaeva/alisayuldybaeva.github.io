@@ -11,9 +11,8 @@ function externalLinks(){
 
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-    center:true,
+    
     stagePadding: 50,
-    lazyLoad: true,
     loop:true,
     margin:10,
     nav:false,
