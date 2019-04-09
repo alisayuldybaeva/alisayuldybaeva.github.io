@@ -244,6 +244,17 @@
     }
 
     @media only screen and (max-width: 500px)  {
+          .owl-item.cloned{
+    display: none !important;
+  }
+  .owl-stage{
+    transform:none !important;
+    transition: none !important;
+    width: auto !important;
+  }
+  .owl-item{
+    width: auto !important;
+  }
       header{
         height: 67px;
        }
