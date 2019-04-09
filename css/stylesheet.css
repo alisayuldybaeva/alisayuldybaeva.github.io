@@ -165,12 +165,12 @@
     }
 
     .a_right p {
-      font-family: Georgia;
-      font-style: italic;
+      font-family: 'Lora', serif;
+      font-style: normal;
       font-size: 16px;
     }
     .a_right h4 {
-      font-family: Georgia;
+      font-family: 'Lora', serif;
       font-style: normal;
       font-weight: bold;
       font-size: 17px;
@@ -188,14 +188,14 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      font-family: Georgia;
+      font-family: 'Lora', serif;
       font-style: bold;
       font-size: 13px;
       margin: 5px 5px;
     }
 
     .a_links a {
-      font-family: Georgia;
+      font-family: 'Lora', serif;
       font-weight: bold;
       font-size: 14px;
       text-decoration: none;
@@ -222,7 +222,7 @@
       display: flex;
       justify-content: space-between;
       align-items: stretch;
-      font-family: Georgia;
+      font-family: 'Lora', serif;
       font-size: 14px;
       z-index: 900;
     }
